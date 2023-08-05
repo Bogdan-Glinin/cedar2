@@ -1,0 +1,53 @@
+.mainPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-top: 85px;
+    width: 662px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 84px;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+.subtitleInfo {
+    margin-top: 30px;
+    width: 408px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    align-items: center;
+}
+
+.CatalogLink {
+    margin-top: 60px;
+    width: 1242px;
+    height: 322px;
+    color: #f2f2f2;
+    background: url("./../../assets/images/catalogLink1.png");
+    border-radius: 60px;
+    font-size: 32px;
+    line-height: 44.8px;
+    font-weight: 400;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.CatalogLink:visited{
+    text-decoration: none;
+}
+
+.hits{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44.8px;
+    letter-spacing: 3%;
+    margin-top: 120px;
+    color: #1C261B;
+
+}
